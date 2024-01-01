@@ -3,7 +3,7 @@
   $padding,
   $font-size,
   $color,
-  $display: flex,
+  $display: inline-flex,
   $justify-content: center,
   $align-items: center,
   $text-align: center
@@ -16,4 +16,12 @@
   padding: $padding;
   font-size: $font-size;
   color: $color;
+}
+@mixin absheader($pos, $bgColor, $width: 100%, $left: 0, $top: 0, $index: 50) {
+  width: $width;
+  top: $top;
+  left: $left;
+  z-index: $index;
+  position: $pos;
+  background-color: $bgColor;
 }

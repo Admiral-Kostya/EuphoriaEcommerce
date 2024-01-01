@@ -10,9 +10,19 @@
 @import "_mixins.scss";
 // Загальні стилі
 @import "_common-title.scss";
+@import "_common-btn.scss";
+@import "_common-grid-container.scss";
 // Стилі секцій
 @import "_header.scss";
 @import "_main.scss";
+@import "_hero.scss";
+@import "_explore.scss";
+@import "_arrival.scss";
+@import "_zone.scss";
+@import "_man-categories.scss";
+@import "_woman-categories.scss";
+@import "_brands.scss";
+@import "_fashion.scss";
 @import "_footer.scss";
 
 /* html {
@@ -30,7 +40,7 @@
   flex-grow: 1;
 }
 [class*="__container"] {
-  max-width: 1230px;
+  max-width: 1260px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: content-box;
